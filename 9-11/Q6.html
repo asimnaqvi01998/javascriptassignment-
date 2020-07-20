@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var mark=prompt("Entert 3 subject obtained marks " , mark);
+        var p= mark/300*100;
+        document.write("<h1>Result</h1><br><br>");
+        
+        document.write("<h3>totol marks  &nbsp;&nbsp;&nbsp;&nbsp;  300</h3>");
+        document.write("<h3>obtained marks is &nbsp;&nbsp;&nbsp;&nbsp; </h3>",mark);
+        document.write("<h3>percentage is &nbsp;&nbsp;&nbsp;&nbsp; </h3>", p );
+        
+        if(p >='80')
+        { 
+            
+            document.write('<h2>Grade &nbsp;&nbsp;&nbsp;&nbsp;A-one.</h2>');
+            document.write('<h2>Remark &nbsp;&nbsp;&nbsp;&nbsp;Excellent.</h2>');
+        }
+        else if(p >='70')
+        { 
+
+          document.write('<h2>Grade &nbsp;&nbsp;&nbsp;&nbsp;A.</h2>');
+          document.write('<h2>Remark &nbsp;&nbsp;&nbsp;&nbsp;GOOd.</h2>');
+        }
+        else if(p >='60')
+        { 
+
+         document.write('<h2>Grade &nbsp;&nbsp;&nbsp;&nbsp;B</h2>');
+        document.write('<h2>Remark &nbsp;&nbsp;&nbsp;&nbsp;You will need to improve.</h2>');
+        }
+        else
+        { 
+
+         document.write('<h2>Grade &nbsp;&nbsp;&nbsp;&nbsp;Fail.</h2>');
+         document.write('<h2>Remark &nbsp;&nbsp;&nbsp;&nbsp;sorry.</h2>');
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

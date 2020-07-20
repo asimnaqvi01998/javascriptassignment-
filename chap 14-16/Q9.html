@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var stu=['340','120','890','459'];
+        var a;
+        document.write('<b>student scores is :' ,stu);
+        for(var i=0;i<stu.length;i++)
+        {
+             for (j = i + 1; j < stu.length; ++j)
+            {
+ 
+                if (stu[i] > stu[j]) 
+                {
+ 
+                    a =  stu[i];
+                    stu[i] = stu[j];
+                    stu[j] = a;
+ 
+                }
+ 
+            }
+        }
+        document.write("<h1> the assending order is")
+        for (i = 0; i < stu.length; ++i)
+            document.write("<br>", stu[i]);
+ 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

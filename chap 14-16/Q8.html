@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var color=['Red','green','yellow'];
+        document.write(color);
+        color.unshift('purple');
+        document.write("<br><h1>color start add  ",color);
+        color.push('pink');
+        document.write("<br>color end add ",color);
+        color.unshift('black','yellow');
+        document.write("<br>color one or more add start add color ",color);
+        color.shift();
+        document.write("<br>color start remove ",color);
+        color.pop();
+        document.write("<br>color end remove remove ",color);
+        color.splice(3,'orange');
+        document.write("<br>color center add color ",color);
+        color.splice(2,6);
+        document.write("<br>color one or more color remove remove ",color);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

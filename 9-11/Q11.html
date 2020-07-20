@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a=+prompt("Enter a number 1 ",a);
+      
+     document.write("<h1>Ist number is  :", a ,'</h1>');
+        var b=+prompt("Enter a number 2 ",b);
+        document.write("<h1>2nd number is  :", b ,'</h1>');
+        var op=prompt("Enter a operator",op);
+        document.write("<h1>operator  is  :", op ,'</h1>');
+        
+        if(op == '+')
+        {
+            op=a+b;
+            document.write("<h1>sum is", op ,'</h1>');
+        }
+        else if(op=='-')
+        {
+            op=a-b;
+            document.write("<h1>subtraction  is",op,'</h1>');
+        }
+        else if(op =='*')
+        {
+            op=a*b;
+            document.write("<h1>mutiplication  is",op,'</h1>');
+        }
+       else if(op =='/')
+        {
+            op=a/b;
+            document.write("<h1>Division is",op,'</h1>');
+        }
+        else 
+        {
+            op= a & b;
+            document.write("<h1>& is",op,'</h1>');
+        }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    <script>
+        var  ch=prompt("Enter a character" ,ch);
+        document.write("<h1>your character is " ,ch,"</h1>");
+        
+        if(ch>='65' && ch<= '90')
+        {
+
+            document.write("<h1>Character is a capital letter " , ch , "</h1>"); 
+        
+        }
+        else if(ch>='97' && ch<= '122')
+        {
+            document.write("<h1>Character is a small letter " ,ch,"</h1>"); 
+        }
+        else if(ch>='48' && ch<='57')
+        {
+            document.write("<h1>Character is a digit" ,ch,"</h1>");
+        }
+        else if((ch>='0' && ch<='47')||(ch>='58' && ch<='64')|| (ch>='91' && ch<='96')||(ch>='123' && ch<='127'))
+        {
+            document.write("<h1>Character is a special symbol" ,ch,"</h1>");
+        }
+        else
+        {
+
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
